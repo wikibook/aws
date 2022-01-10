@@ -78,6 +78,7 @@ div.chapter {
 ul#contents {
     max-width: 100%;
     overflow-x: hidden;
+    clear: both;
 }
 ul#contents li {
     line-height: 1.8;
@@ -108,10 +109,10 @@ ul#contents .title {
     color: #e08352;
 }
 ul#contents .title .num {
-    padding-right: 3px;
+    padding-right: 1em;
     background: white;
     color: #474545;
-    width: 40px;
+    width: 38px;
     display: inline-block;
     font-weight: bold;
 }
@@ -121,30 +122,28 @@ ul#contents .page {
     background: white;
     color: #e08352;
 }
-ul#detail {
+ul#contents li.indent {
+    margin-left: 47px;
+}
+ul.detail {
     font-size: 12px;
-		position: relative;
 }
-ul#detail img {
-	position: absolute;
-	right: 2px;
-	top: 2px;
-	max-height: 112px;
-	max-width: 200px;
-}
-ul#detail li {
+ul.detail li {
     margin-bottom: 5px;
 }
-#detail li:nth-child(n+4) a {
+.detail li:nth-child(n+4) a {
     margin-left: 121px;
 }
-ul#detail a {
+.detail li:nth-child(3) a.addIndent {
+    margin-left: 121px;
+}
+ul.detail a {
     color: black;
 }
-ul#detail span:first-child {
+ul.detail span:first-child {
 		margin-top: 3px;
-    margin-left: 48px;
-    margin-right: 10px;
+    margin-left: 54px;
+    margin-right: 13px;
     border-radius: 5px;
     color: white;
     background: #e08352;
@@ -154,11 +153,13 @@ ul#detail span:first-child {
     display: inline-block;
     text-align: center;
     font-weight: lighter;
+    float: left;
 }
-ul#detail span:nth-child(2) {
-    margin-left: 0px;
+ul.detail span:nth-child(2) {
+    margin-left: 122px;
+    display: inherit;
 }
-ul#detail .time {
+ul.detail .time {
     color: #e08352;
 }
 span.studyLabel {
@@ -187,12 +188,20 @@ div.imageArea img {
 		width: 24%;
 }
 div.exampleArea {
-    padding: 20px;
+    padding: 14px;
     background: #e08352;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 30px;
 		color: white;
+		margin-bottom: 20px;
+		line-height: 18px;
+}
+div.exampleArea div {
+		margin-bottom: 15px;
+}
+div.exampleArea div:last-child {
+		margin-bottom: 0px;
 }
 div.exampleArea a {
 		color: white;
