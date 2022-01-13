@@ -61,7 +61,7 @@ nav ul li {
     padding-right: 30px;
 }
 nav ul li a, h2 {
-    color: #e08352;
+    color: #ffa93a;
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 40px;
@@ -90,7 +90,7 @@ ul#contents > li:before {
     float: left;
     width: 0;
     white-space: nowrap;
-    color: #e08352;
+    color: #ffa93a;
     font-weight: 100;
     content:
  "·····························································"
@@ -106,7 +106,7 @@ ul#contents > li:before {
 ul#contents .title {
     padding-right: 0.33em;
     background: white;
-    color: #e08352;
+    color: #ffa93a;
 }
 ul#contents .title .num {
     padding-right: 1em;
@@ -120,7 +120,7 @@ ul#contents .page {
     float: right;
     padding-left: 0.33em;
     background: white;
-    color: #e08352;
+    color: #ffa93a;
 }
 ul#contents li.indent {
     margin-left: 47px;
@@ -146,7 +146,7 @@ ul.detail span:first-child {
     margin-right: 13px;
     border-radius: 5px;
     color: white;
-    background: #e08352;
+    background: #ffa93a;
     width: 55px;
     height: 18px;
     font-size: 8px;
@@ -160,7 +160,7 @@ ul.detail span:nth-child(2) {
     display: inherit;
 }
 ul.detail .time {
-    color: #e08352;
+    color: #ffa93a;
 }
 span.studyLabel {
 		margin-top: 3px;
@@ -179,7 +179,7 @@ span.studyLabel {
 		cursor: pointer;
 }
 span.studyLabel.fin {
-		background: #e08352;
+		background: #ffa93a;
 }
 div.imageArea {
 	padding-bottom: 10px;
@@ -189,7 +189,7 @@ div.imageArea img {
 }
 div.exampleArea {
     padding: 14px;
-    background: #e08352;
+    background: #ffa93a;
     border-radius: 10px;
     font-size: 14px;
     line-height: 30px;
